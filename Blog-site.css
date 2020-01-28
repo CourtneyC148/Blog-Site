@@ -1,0 +1,45 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+/*** Navigation bar***/
+
+.navbar{
+	background-color: red;
+}
+
+.logo, .menu {
+	display: inline-block;
+}
+
+.menu {
+	float: right;
+	margin: 20px;
+}
+
+.logo {
+	margin: 20px;
+}
+
+.menu ul {
+	padding-left: 0;
+	margin: 0;
+}
+
+
+.menu ul li {
+	list-style-type: none;
+	display: inline-block;
+	margin-left: 15px;
+}
+
+.menu ul li a {
+	text-decoration: none;
+}
+
+
+
