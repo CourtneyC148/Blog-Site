@@ -68,7 +68,9 @@ header {
 }
 
 h1 {
-	font-size: 50px;
+	font-size: 65px;
+	color: white;
+    text-shadow: 1px 1px 4px #000000;
 }
 
 label {
@@ -76,12 +78,24 @@ label {
 }
 
 #email {
-	margin: 15px 0 10px;
+	margin: 20px 0 15px;
 	padding: 5px;
 	height: 30px;
 	width: 200px;
 	border-radius: 4px;
 	border: none;
+}
+
+ 
+#submit {
+	background-color: #0398fc;
+	padding: 10px 20px;
+	color: white;
+	text-transform: uppercase;
+	border-radius: 8px;
+	border: none;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	background-image: linear-gradient(#008eed, #0398fc);
 }
 
 
