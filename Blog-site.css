@@ -8,8 +8,13 @@ body {
 
 /*** Navigation bar***/
 
+
 .navbar{
-	background-color: red;
+	background-color: White;
+	/**border-bottom: 1px solid #999;**/
+	box-shadow: -1px -2px 10px #999;
+	position: sticky;
+	top: 0;
 }
 
 .logo, .menu {
@@ -35,10 +40,18 @@ body {
 	list-style-type: none;
 	display: inline-block;
 	margin-left: 15px;
+	text-transform: uppercase;
 }
 
 .menu ul li a {
 	text-decoration: none;
+
+}
+
+/*** Hero ***/
+
+header {
+	text-align: center;
 }
 
 
