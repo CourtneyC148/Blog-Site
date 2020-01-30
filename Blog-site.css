@@ -49,6 +49,7 @@ body {
 .menu ul li a {
 	text-decoration: none;
 	color: #444;
+	font-size: 15px;
 
 }
 
@@ -59,19 +60,18 @@ header {
 	background-color: orange;
 	height: 500px;
 	margin-top: 70px;
-	background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80');
+	background-image: url('https://images.unsplash.com/photo-1432889490240-84df33d47091?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 100% 50%;
 }
 
 .hero {
-	padding-top: 50px;
-	width: 800px;
+    padding-top: 50px;
+	width: 100%;
 	background: rgba(0, 0, 0, 0.2);
 	margin: auto;
 	height: 100%;
-	border-radius: 800px;
 
 }
 
@@ -89,6 +89,8 @@ h1 {
 
 label {
 	font-size: 20px;
+	color: white;
+	font-weight: 600;
 }
 
 #email {
@@ -118,6 +120,8 @@ label {
 	text-align: left;
 	line-height: 1.5;
 	font-weight: 300;
+	letter-spacing: 1.0px;
+	word-spacing: 1.1px;
 }
 
 .section1 {
