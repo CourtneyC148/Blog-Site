@@ -13,7 +13,6 @@ body {
 
 .navbar{
 	background-color: White;
-	/**border-bottom: 1px solid #999;**/
 	box-shadow: -1px -2px 10px #999;
 	position: sticky;
 	top: 0;
@@ -30,6 +29,8 @@ body {
 
 .logo {
 	margin: 20px;
+	color: #008eed;
+	font-weight: 700;
 
 }
 
@@ -50,14 +51,18 @@ body {
 	text-decoration: none;
 	color: #444;
 	font-size: 15px;
+}
 
+.menu ul li a:hover {
+	color: #008eed;
+	transition: 0.5s;
 }
 
 /*** Hero ***/
 
 header {
 	text-align: center;
-	background-color: orange;
+	background-color: #008eed;
 	height: 500px;
 	margin-top: 70px;
 	background-image: url('https://images.unsplash.com/photo-1432889490240-84df33d47091?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80');
@@ -116,6 +121,25 @@ label {
 
 /***    Section One.  ****/
 
+.flex-container {
+	display: flex;
+	justify-content: center;
+}
+
+.flex-container > div {
+  margin: 20px;
+  padding: 20px;
+}
+
+.flex-container p {
+	text-align: center;
+}
+
+hr {
+	width: 50%;
+	opacity: 10%;
+}
+
 .section1 p {
 	text-align: left;
 	line-height: 1.5;
@@ -133,4 +157,8 @@ a {
 	color: #008eed;
 }
 
+img {
+	height: 600px;
+	width: 500px;
+}
 
