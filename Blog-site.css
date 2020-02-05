@@ -17,6 +17,7 @@ h1 {
 
 h3 {
 	font-weight: 400;
+	color: #0c8530;
 }
 /*** Navigation bar***/
 
@@ -181,15 +182,50 @@ iframe {
 	height: 600px;
 	width: 500px;
 	float: right;
+	margin: 0 0 30px 30px;
 }
 
 .paragraph-pic {
 	width: 50%;
 	display: block;
-	padding-top: 40px;
+	padding-bottom: 20px;
 	line-height: 1.8;
 	font-weight: 300;
 	letter-spacing: 1.0px;
 	word-spacing: 1.1px;
 }
 
+/*** .paragraph-pic2 {
+	width: 50%;
+	display: inline;
+    padding-top: 40px;
+	line-height: 1.8;
+	font-weight: 300;
+	letter-spacing: 1.0px;
+	word-spacing: 1.1px;
+} ***/
+
+.clearfix {
+	overflow: auto;
+
+}
+
+.picture-left {
+	height: 600px;
+	width: 500px;
+	float: left;
+	margin: 0 30px 30px 0;
+}
+
+.fun-fact {
+	line-height: 1.8;
+	font-weight: 300;
+	letter-spacing: 1.0px;
+	word-spacing: 1.1px;
+	list-style-type: none;
+}
+
+
+.fun-fact li {
+	padding-top: 30px;
+}
