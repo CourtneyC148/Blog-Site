@@ -18,6 +18,7 @@ h1 {
 h3 {
 	font-weight: 400;
 	color: #0c8530;
+	text-align: justify;
 }
 /*** Navigation bar***/
 
@@ -155,7 +156,7 @@ hr {
 /****  Section Two   *******/
 
 section p {
-	text-align: left;
+	text-align: justify;
 	line-height: 1.8;
 	font-weight: 300;
 	letter-spacing: 1.0px;
@@ -223,6 +224,7 @@ iframe {
 	letter-spacing: 1.0px;
 	word-spacing: 1.1px;
 	list-style-type: none;
+	text-align: justify;
 }
 
 
